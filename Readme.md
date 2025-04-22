@@ -41,7 +41,7 @@
 
 - Khi có nhiều worker và nhiều task, thì cơ chế này sẽ giúp chia task có các worker một cách tuần tự
 
-# Publish / Subcribe
+# Publish / Subscribe
 
 - Mô hình 1 thằng pubisher gửi messages tới 1 Exchange, Exchange sẽ ràng buộc với các Queues và các Subscriber sẽ nhận được cùng 1 message thông qua các Queues đó
 - Thường được áp dụng trong việc gửi thông báo
